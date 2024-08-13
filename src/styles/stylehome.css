@@ -1,0 +1,406 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main {
+  width: 100%;
+}
+
+.mlmr {
+  margin-left: 50px;
+}
+.bgnav {
+  background: #d9d9d9;
+  /* max-width: 1080px; */
+  width: 100%;
+  height: 122px;
+}
+.logo {
+  font-family: "Inter";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36.31px;
+  text-align: left;
+}
+.textall {
+  font-family: "Inter";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36.31px;
+  text-align: left;
+  margin-right: -120px;
+
+  gap: 20px;
+  color: #000000;
+}
+.mainbg {
+  background-image: url("../pages/image/imagebg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1920px;
+  width: 100%;
+  /* max-width: 1080px;
+  height: 1920px;
+
+  opacity: 0px; */
+}
+.bgcolr {
+  background: #d9d9d9;
+  width: 179px;
+  height: 179px;
+
+  gap: 0px;
+  border-radius: 20px;
+  opacity: 0px;
+  margin-top: 60px;
+}
+.clr {
+  color: black;
+  font-family: "Inter";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36.31px;
+  text-align: center;
+  margin-top: -30px;
+}
+.diplflx {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.bee {
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.bee1 {
+  margin-top: -25px;
+  margin-bottom: 7px;
+}
+
+.bee2 {
+  margin-left: 40px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.beemain {
+  text-align: end;
+  margin-right: 170px;
+}
+
+.alomain {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.eyestop {
+  margin-top: -20%;
+  margin-left: -130px;
+}
+
+.eyestop2 {
+  margin-top: -10%;
+  margin-left: 22%;
+}
+.nav-link:focus,
+.nav-link {
+  color: var(--bs-nav-link-hover-color);
+}
+
+.backnext {
+  display: flex;
+  justify-content: center;
+  gap: 48%;
+  margin-top: 40%;
+}
+
+.back {
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.next {
+  margin-top: 20px;
+  margin-left: 55px;
+}
+
+.backtext {
+  font-family: "Inter";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36.31px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mainalo2 {
+  margin-top: 15%;
+}
+
+.beemain1 {
+  margin-top: 18%;
+  margin-left: 15%;
+}
+.eyetop1 {
+  margin-top: -16%;
+}
+
+.ALo1 {
+  margin-left: -6%;
+}
+
+.ALo2 {
+  margin-left: -8%;
+  /* margin-top: 2%; */
+}
+.nextpg {
+  margin-top: 8%;
+}
+.linkstyl a {
+  text-decoration: none;
+  color: #000000;
+}
+
+@keyframes moveBee {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(150px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveEyes {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(60px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes moveEyes1 {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(40px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.beemain {
+  position: relative;
+  left: -7%;
+}
+
+.beemn {
+  animation: moveBee 16s infinite;
+}
+body {
+  overflow-x: hidden;
+}
+.anieyes {
+  position: relative;
+  top: 0;
+  left: -2% !important;
+
+  animation: moveEyes1 16s infinite !important;
+  overflow-x: hidden;
+}
+.eyestop,
+.eyestop2 {
+  position: relative;
+  top: 0;
+  left: -4%;
+  animation: moveEyes 16s infinite;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 1080px) {
+  .eyestop {
+    margin-top: -25%;
+    margin-left: -120px;
+  }
+  .eyestop2 {
+    margin-top: -12%;
+    margin-left: 29%;
+  }
+  .eyetop1 {
+    margin-top: -20%;
+  }
+  .ALo1 {
+    margin-left: -8.5%;
+  }
+  .ALo2 {
+    margin-left: -12%;
+  }
+  .backnext {
+    display: flex;
+    justify-content: center;
+    gap: 48%;
+    margin-top: 52%;
+  }
+  .beemain {
+    text-align: end;
+    /* margin-right: 80px; */
+  }
+  .alomain {
+    text-align: center;
+  }
+  .beemain1 {
+    margin-top: 25%;
+    margin-left: 15%;
+  }
+  .mainalo2 {
+    margin-top: 20%;
+  }
+  .textall {
+    margin-right: -30px;
+  }
+  .nextpg {
+    margin-top: 8%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .diplflx {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 0px;
+  }
+  .beemain1 {
+    margin-left: 40px;
+  }
+  .beemain {
+    margin-right: 20px;
+  }
+  .beemn {
+    width: 130px;
+    height: 120px;
+  }
+  .ALo {
+    width: 280px;
+    height: 193px;
+  }
+  .ALo01 {
+    width: 50px;
+    margin-left: 12%;
+    margin-top: -17px;
+  }
+  .ALo02 {
+    width: 50px;
+    margin-left: 13%;
+    margin-top: -10px;
+  }
+  .ALo1 {
+    width: 50px;
+    margin-left: 2%;
+  }
+  .ALo2 {
+    width: 50px;
+    margin-left: 2%;
+    margin-top: -10px;
+  }
+  .eyetop1 {
+    margin-top: -23%;
+  }
+  .logo {
+    font-size: 22px;
+  }
+  .backnext {
+    gap: 60px;
+  }
+  .back {
+    width: 60px;
+    margin-top: 15px;
+    margin-left: 18px;
+  }
+  .next {
+    width: 60px;
+    margin-top: 15px;
+    margin-left: 35px;
+  }
+  .backtext {
+    font-size: 16px;
+    margin-top: 12px;
+  }
+  .bgcolr {
+    width: 120px;
+    height: 120px;
+  }
+  .bgclr2 {
+    margin-top: 40px;
+    margin-left: 40%;
+  }
+  .mlmr {
+    margin-left: 10px;
+  }
+  .textall {
+    font-size: 20px;
+    gap: 0;
+  }
+  .bee {
+    width: 80px;
+    height: 80px;
+    margin-left: 15px;
+    margin-bottom: 35px;
+  }
+  .bee1 {
+    width: 110px;
+    height: 116px;
+    margin-top: -10px;
+  }
+  .bee2 {
+    width: 66px;
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+  }
+  .clr {
+    font-size: 16px;
+    margin-top: -40px;
+  }
+  .ant {
+    margin-top: -32px;
+  }
+  .mainbg {
+    height: 1520px;
+  }
+}
+
+@media only screen and (max-width: 450px) and (max-width: 400px) {
+  .bgclr2 {
+    margin-top: 40px;
+    margin-left: 35%;
+  }
+  .ALo01 {
+    width: 50px;
+    margin-left: 10%;
+    margin-top: 0px;
+  }
+  .ALo02 {
+    width: 50px;
+    margin-left: 8%;
+    margin-top: -5px;
+  }
+  .ALo1 {
+    width: 50px;
+    margin-left: 2%;
+    margin-top: 8px;
+  }
+  .ALo2 {
+    width: 50px;
+    margin-left: -7%;
+    margin-top: -5px;
+  }
+}
