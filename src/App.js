@@ -7,6 +7,7 @@ function App() {
   return (
 
     <Routes>
+      <Route path='/' element={<Homepage />} />
 
       <Route path='/pervious' element={<Homepage />} />
       <Route path='/next' element={<Nextpg />} />
